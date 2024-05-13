@@ -6,7 +6,8 @@
 void f(void)
 {
 	int* x = malloc(10 * sizeof(int));
-	x[10] = 0;
+	x[9] = 3;
+	free(x);
 }
 
 int main(void)
