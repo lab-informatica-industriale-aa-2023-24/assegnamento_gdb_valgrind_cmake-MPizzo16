@@ -18,5 +18,5 @@ int main()
 		*s = 'A';
 		s++;
 	}
-
+	free(p);
 }
